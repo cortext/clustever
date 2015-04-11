@@ -2,7 +2,7 @@
 
 **Clustering for nuts.** Something like a web interface to [scikit-learn](http://scikit-learn.org/stable/).
 
-img
+![teaser](https://raw.githubusercontent.com/cortext/clustever/master/static/img/teaser_clustever.png)
 
 ### Achtung !
 
@@ -25,4 +25,4 @@ Open a browser and visit `http://127.0.0.1:5000/`.
 
 ##### Thanks
 
-Thanks to @taniki and @JoaquinKeller for the tips ;)
+Thanks to [@taniki](http://formism.net/) and [@JoaquinKeller](http://divereal.com/) for the tips ;)
