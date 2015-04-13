@@ -60,7 +60,7 @@ fns = {k:v for k, v in fns.iteritems() if k in args}
 # Datasets
 dss = {ds.DESCR.split(' ')[0].lower():{
             'title': ds.DESCR.split('\n')[0],
-            'df': pd.DataFrame(ds.data, columns=ds.feature_names)}
+            'df': pd.DataFrame(ds.data)}
         for ds in [load_iris(), load_boston()]}
 
 # Colors
