@@ -303,7 +303,8 @@ function showForm () {
 }
 showForm()
 
-$( '#submit' ).click(function () {
+$( '#submit' ).click(function (event) {
+    event.preventDefault()
     var params = {}
     params["dataset"] = $( '#dataset' ).val()
     $.each(["dimred", "clustering"], function(_, value) {
